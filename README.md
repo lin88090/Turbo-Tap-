@@ -1,3 +1,8 @@
+更新了Esc停止的功能
+ const minInterval:更改點擊速率
+ const maxDuration:更改點擊時長
+ 
+    
     (function() {
     // 使用客戶端可見區域尺寸，而不是內部尺寸，避免工具列影響
     const width = document.documentElement.clientWidth;
