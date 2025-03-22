@@ -10,10 +10,10 @@
     const centerX = width / 2;
     const centerY = height / 2;
 
-    const minInterval = 400;
-    const maxInterval = 600;
+    const minInterval = 200;
+    const maxInterval = 500;
     let clicks = 0;
-    const maxDuration = 60 * 1000; // 60秒
+    const maxDuration = 500 * 1000; // 60秒
     let isRunning = true;
 
     console.log("自動點擊開始，將在可見視窗中心執行...");
