@@ -1,5 +1,7 @@
 更新了Esc停止的功能
+
  const minInterval:更改點擊速率
+ 
  const maxDuration:更改點擊時長
  
     
