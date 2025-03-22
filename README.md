@@ -1,6 +1,3 @@
-
-
-
     (function() {
     // 使用客戶端可見區域尺寸，而不是內部尺寸，避免工具列影響
     const width = document.documentElement.clientWidth;
@@ -8,10 +5,10 @@
     const centerX = width / 2;
     const centerY = height / 2;
 
-    const minInterval = 100;
-    const maxInterval = 300;
+    const minInterval = 400;
+    const maxInterval = 600;
     let clicks = 0;
-    const maxDuration = 300 * 1000; // 60秒
+    const maxDuration = 60 * 1000; // 60秒
     let isRunning = true;
 
     console.log("自動點擊開始，將在可見視窗中心執行...");
@@ -83,4 +80,4 @@
 
     const startTime = Date.now();
     clickAtCenter();
-})();
+    })();
